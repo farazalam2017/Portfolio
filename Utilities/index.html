@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <img src="./assets/logo/sw.png" alt="" class="logo" />
+      <ul class="main-nav-list">
+        <li><a href="#four" class="main-nav-links">Home</a></li>
+        <li><a href="#two" class="main-nav-links">Project</a></li>
+        <li><a href="#one" class="main-nav-links">Education</a></li>
+        <li><a href="#three" class="main-nav-links">Contact</a></li>
+      </ul>
+    </header>
+    <section class="hero" id="four">
+      <img src="./assets/hero/webdev.png" alt="" class="hero-img" />
+      <img src="./assets/hero/bg.jpg" alt="" class="bg" />
+      <div class="hero-description">
+        <h1 class="hero-title">Hi! i'am <span class="faraz">Faraz</span>!</h1>
+        <p class="hero-subheading">Javascript developer !</p>
+      </div>
+      <div class="hero-model">
+        <model-viewer
+          src="./models/desk.glb"
+          camera-controls
+          disable-pan
+          disable-zoom
+          interaction-prompt="none"
+          min-camera-orbit="auto 55deg auto"
+          max-camera-orbit="auto 92deg auto"
+          field-of-view="35.3deg"
+        ></model-viewer>
+      </div>
+    </section>
+    <section class="about-me">
+      <div class="about-me-description">
+        <p class="introduction">Introduction !</p>
+        <h1 class="about-me-title">Hello World !</h1>
+        <p class="about-me-subheading">
+          Being from biology background, I found the IT sector quite
+          fascinating. Now i can proudly say that i have done justice with my
+          career.
+        </p>
+      </div>
+      <div class="cards">
+        <div class="card animation">
+          <img src="./assets/skills/C.png" alt="" class="c" />
+          <p class="title">C</p>
+        </div>
+        <div class="card">
+          <img src="./assets/skills/html.png" alt="" class="html" />
+          <p class="title">Html & Css</p>
+        </div>
+        <div class="card">
+          <img src="./assets/skills/js.png" alt="" class="javascript" />
+          <p class="title">Javascript</p>
+        </div>
+        <div class="card">
+          <img src="./assets/skills/git.png" alt="" class="git" />
+          <p class="title">git</p>
+        </div>
+        <div class="card">
+          <img src="./assets/skills/vs code.png" alt="" class="vscode" />
+          <p class="title">Vs Code</p>
+        </div>
+        <div class="card">
+          <img src="./assets/skills/github1.png" alt="" class="github" />
+          <p class="title">GitHub</p>
+        </div>
+      </div>
+    </section>
+    <section class="time-line-section" id="one">
+      <div class="time-line-content">
+        <div class="heading-description">
+          <p class="time-line-title">WHAT I HAVE DONE !</p>
+          <h1 class="time-line-subheading">Education !</h1>
+        </div>
+        <div class="timeline">
+          <div class="line"></div>
+          <div class="time-line-description">
+            <div class="mini-circle"></div>
+            <div class="content">
+              <h2 class="content-timeline-title">Post Graduation</h2>
+              <p class="content-timeline-description">
+                ( 2022- 2024 )- Master of Computer Application
+                <br />
+                United Institute of Management Naini, Praygraj
+              </p>
+            </div>
+          </div>
+          <div class="time-line-description">
+            <div class="mini-circle"></div>
+            <div class="content">
+              <h2 class="content-timeline-title">Graduation</h2>
+              <p class="content-timeline-description">
+                (2018-2021)- Bachelor in Computer Application
+                <br />
+                Percentage:- 75.83%
+                <br />
+                Technical Education and Research Institute, Ghazipur
+              </p>
+            </div>
+          </div>
+          <div class="time-line-description">
+            <div class="mini-circle"></div>
+            <div class="content">
+              <h2 class="content-timeline-title">Intermediate</h2>
+              <p class="content-timeline-description">
+                2018
+                <br />
+                Physics, Chemistry, biology, english,Computer
+                <br />
+                Percentage:- 80.8%
+                <br />
+                Shah Faiz Public School, Ghazipur
+              </p>
+            </div>
+          </div>
+          <div class="time-line-description">
+            <div class="mini-circle"></div>
+            <div class="content">
+              <h2 class="content-timeline-title">High School</h2>
+              <p class="content-timeline-description">
+                2016
+                <br />
+                Hindi, English, Maths, Science, Social Science
+                <br />
+                Percentage:- 91.2%
+                <br />
+                Shah Faiz Public School, Ghazipur
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <a href=""></a>
+    <section class=project" id="two">
+      <h1 class=project-title">Projects !</h1>
+      <p class=project-description">
+        All these projects are made using Html, Css, Javascript
+      </p>
+      <div class="videos">
+        <div class=project-videos">
+          <img src="./assets/links/2.png" class="images" alt="" />
+          <h2 class="videos-title">Omnifood Project</h2>
+          <p class="videos-description">
+           Fictional Food Delivery website
+          </p>
+          <a
+            href="https://omnifood-farazalam.netlify.app/"
+            target="_blank"
+            class="btn"
+            >See it live !</a
+          >
+        </div>
+        <div class=project-videos">
+          <img src="./assets/links/1.png" class="images" alt="" />
+          <h2 class="videos-title">Online Examination Portal</h2>
+          <p class="videos-description">
+            In this Project, We took challenge to make an Online Portal for Examination for Local, 
+            Small Educational Institutions. 
+            Via this Solution the Institution will be able to Manage 
+            there Faculties and Student as well as take Examinations of Students.
+          </p>
+          <a href="https://github.com/farazalam2017/BCA-project" target="_blank" class="btn">See Code</a>
+        </div>
+        <div class=project-videos">
+          <img src="./assets/links/htmlport.png" class="images" alt="" />
+          <h2 class="videos-title">Portfolio</h2>
+          <p class="videos-description">
+           A portfolio made using svgs and animation of html, css
+          </p>
+          <a href="#" target="_blank" class="btn">See Videos</a>
+        </div>
+      </div>
+    </section>
+    <!-- Final -->
+    <section class="final" id="three">
+      <div class="form-box">
+        <h1 class="form-title">Contact</h1>
+        <div class="form-bg">
+          <form id="form">
+            <div class="form-content">
+              <div class="email-box">
+                <label for="email" class="email-title">E-mail:</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email-destination, ex:- we.http@gmail.com"
+                  class="email-input"
+                />
+              </div>
+              <div class="subject-box">
+                <label for="subject" class="subject-title">Subject:</label>
+                <input
+                  type="text"
+                  name="subject"
+                  id="subject"
+                  placeholder="Subject E-mail "
+                  class="subject-input"
+                />
+              </div>
+              <div class="message-box">
+                <label for="message" class="message-title">Message</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  type="text"
+                  class="message-input"
+                  placeholder="Email Message"
+                ></textarea>
+              </div>
+              <div id="buttons">
+                <button type="submit" class="send-button" disabled>Send</button>
+                <botton class="reset-button" type="reset">Reset</botton>
+              </div>
+            </div>
+          </form>
+          <div id="spinner" class="hideSpinner messageSent">
+            <div class="sk-chase">
+              <div class="sk-chase-dot"></div>
+              <div class="sk-chase-dot"></div>
+              <div class="sk-chase-dot"></div>
+              <div class="sk-chase-dot"></div>
+              <div class="sk-chase-dot"></div>
+              <div class="sk-chase-dot"></div>
+            </div>
+          </div>
+          <div id="spinner" class="hideSpinner messageSent">
+            <div class="sk-chase">
+              <div class="sk-chase-dot"></div>
+              <div class="sk-chase-dot"></div>
+              <div class="sk-chase-dot"></div>
+              <div class="sk-chase-dot"></div>
+              <div class="sk-chase-dot"></div>
+              <div class="sk-chase-dot"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <model-viewer
+        class="robo"
+        src="./models/robot_playground/scene.gltf"
+        camera-controls
+        disbale-pan
+        disbale-zoom
+        interaction-prompt="none"
+        field-of-view="10deg"
+        autoplay="experiment_Object_159"
+      >
+      </model-viewer>
+    </section>
+    <script src="./assets/js/script.js"></script>
+     <div class="footer">
+      <a href="https://www.linkedin.com/in/faraz-alam-a67682249/" target="_blank">Linked In</a>
+      <a href="https://github.com/farazalam2017" target="_blank">Github</a>
+    </div>
+  </body>
+</html>
